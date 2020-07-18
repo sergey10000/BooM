@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+}
+
+body{
+	overflow: hidden;
+	font-family: Ubuntu;
+}
+
+#menu {
+	text-align: center;
+	background-color: black;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	padding-top: 30vh;
+	z-index: 10; 
+}
+
+#menu h1{
+	color: white;
+}
+
+#menu button {
+	display: block;
+	background-color: silver;
+	color: black;
+	width: 50vw;
+	padding: 20px;
+	margin: 10px auto;
+	border-radius: 20%;
+	border: solid red 2px;
+	
+}
+
+/* GAME */
+
+#game{
+	z-index: 9;
+}
+
+#scoreDiv{
+	color: white;
+	z-index: 10;
+}
+
+#canvas{
+	background-color: black;
+	border-bottom: solid 1px red;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#control{
+	position: fixed;
+	top: 70vh;
+	left: 0;
+	width: 100vw;
+	height: 30vh;
+	background-color: black;
+	text-align: center;
+}
+
+#control button{
+	width: 25vw;
+	height: 15vh;
+	margin: 2vh;
+	border-radius: 20%;
+	border: 2px solid red;
+	color: black;
+	background: silver;
+	font-size: 180%;
+}
